@@ -11,6 +11,6 @@ The script to collect the gameday data for a particular date was written in pyth
 To run this utility:
 - Download the code from this repo.
 - cd into the Rockies directory.
-- Open to `rockies.py` file and edit the input date for the `get_json_grid` and `get_game_data` functions.
+- Open the `rockies.py` file and edit the input date for the `get_json_grid` and `get_game_data` functions.
 - From the command line, type `python rockies.py`
 - The csv file will be in the data directory and have a name in the format year-month-day.csv reflecting the input date. 
