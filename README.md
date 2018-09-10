@@ -1,6 +1,6 @@
 # MLB Gameday API Data
 
-This repo contains code to For this exercise to download a days worth of game data from the MLB Gameday API.
+This repo contains code to download a days worth of game data from the MLB Gameday API.
 
 ## System Dependencies
 
