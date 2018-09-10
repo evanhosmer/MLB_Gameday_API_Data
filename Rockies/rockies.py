@@ -3,6 +3,7 @@ import numpy as np
 import os
 import urllib.request, json
 from urllib.parse import quote
+from urllib.error import HTTPError
 import csv
 
 def get_daily_data(date):
@@ -15,8 +16,11 @@ def get_daily_data(date):
     dateurl = ('https://gd2.mlb.com/components/game/mlb/year_{}/month_{}/day_{}/grid.json'.format(year, month, day))
 
     # Load in the json grid from the url
-    with urllib.request.urlopen(dateurl) as url:
-        data = json.loads(url.read().decode())
+    try:
+        with urllib.request.urlopen(dateurl) as url:
+            data = json.loads(url.read().decode())
+    except HTTPError:
+        raise ValueError('Failed to collect data for specified date')
 
     return data
 
