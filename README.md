@@ -4,7 +4,7 @@ This repo contains code to download a days worth of game data from the MLB Gamed
 
 ## System Dependencies
 
-The script to collect the gameday data for a particular date was written in python 3. To execute, this code, python 3+ needs to be utilzed. Some of this code will not execute properly if done using an earlier version of python. The following libraries were used:
+The script to collect the gameday data for a particular date was written in python 3. To execut this code, python 3+ needs to be utilzed. Some of this code will not execute properly if done using an earlier version of python. The following libraries were used:
 - `csv`
 - `urllib`
 
