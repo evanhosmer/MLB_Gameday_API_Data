@@ -1,0 +1,15 @@
+away_code,away_file_code,away_name_abbrev,away_score,away_team_id,away_team_name,calendar_event_id,double_header_sw,event_time,game_nbr,game_pk,game_type,gameday_sw,group,home_code,home_file_code,home_name_abbrev,home_score,home_team_id,home_team_name,id,ind,inning,media_state,series,series_num,status,tbd_flag,top_inning,venue,venue_id
+nyn,nym,NYM,1,121,Mets,14-529957-2018-05-09,N,0:35 AM,1,529957,R,P,MLB,cin,cin,CIN,2,113,Reds,2018/05/09/nynmlb-cinmlb-1,F,10,media_dead,Regular Season,3,Final,N,N,Great American Ball Park,2602
+cle,cle,CLE,6,114,Indians,14-529951-2018-05-09,N,1:10 PM,1,529951,R,P,MLB,mil,mil,MIL,2,158,Brewers,2018/05/09/clemlb-milmlb-1,F,9,media_dead,Regular Season,2,Final,N,N,Miller Park,32
+det,det,DET,4,116,Tigers,14-529952-2018-05-09,N,2:05 PM,1,529952,R,P,MLB,tex,tex,TEX,5,140,Rangers,2018/05/09/detmlb-texmlb-1,F,10,media_dead,Regular Season,3,Final,N,N,Globe Life Park in Arlington,13
+pit,pit,PIT,6,134,Pirates,14-529958-2018-05-09,N,2:10 PM,1,529958,R,P,MLB,cha,cws,CWS,5,145,White Sox,2018/05/09/pitmlb-chamlb-1,F,9,media_dead,Regular Season,2,Final,N,N,Guaranteed Rate Field,4
+mia,mia,MIA,4,146,Marlins,14-529956-2018-05-09,N,2:20 PM,1,529956,R,P,MLB,chn,chc,CHC,13,112,Cubs,2018/05/09/miamlb-chnmlb-1,F,9,media_dead,Regular Season,3,Final,N,Y,Wrigley Field,17
+ana,ana,LAA,8,108,Angels,14-529955-2018-05-09,N,3:10 PM,1,529955,R,P,MLB,col,col,COL,0,115,Rockies,2018/05/09/anamlb-colmlb-1,F,9,media_dead,Regular Season,2,Final,N,N,Coors Field,19
+hou,hou,HOU,4,117,Astros,14-529953-2018-05-09,N,3:35 PM,1,529953,R,P,MLB,oak,oak,OAK,1,133,Athletics,2018/05/09/houmlb-oakmlb-1,F,9,media_dead,Regular Season,3,Final,N,N,Oakland Coliseum,10
+bos,bos,BOS,6,111,Red Sox,14-529950-2018-05-09,N,7:05 PM,1,529950,R,P,MLB,nya,nyy,NYY,9,147,Yankees,2018/05/09/bosmlb-nyamlb-1,F,9,media_dead,Regular Season,2,Final,N,Y,Yankee Stadium,3313
+kca,kc,KC,3,118,Royals,14-529954-2018-05-09,N,7:05 PM,1,529954,R,P,MLB,bal,bal,BAL,5,110,Orioles,2018/05/09/kcamlb-balmlb-1,F,9,media_dead,Regular Season,2,Final,N,Y,Oriole Park at Camden Yards,2
+sfn,sf,SF,3,137,Giants,14-529959-2018-05-09,N,7:05 PM,1,529959,R,P,MLB,phi,phi,PHI,11,143,Phillies,2018/05/09/sfnmlb-phimlb-1,F,9,media_dead,Regular Season,3,Final,N,Y,Citizens Bank Park,2681
+sea,sea,SEA,2,136,Mariners,14-529960-2018-05-09,N,7:07 PM,1,529960,R,P,MLB,tor,tor,TOR,5,141,Blue Jays,2018/05/09/seamlb-tormlb-1,F,9,media_dead,Regular Season,2,Final,N,Y,Rogers Centre,14
+atl,atl,ATL,5,144,Braves,14-529949-2018-05-09,N,7:10 PM,1,529949,R,P,MLB,tba,tb,TB,2,139,Rays,2018/05/09/atlmlb-tbamlb-1,F,9,media_dead,Regular Season,2,Final,N,N,Tropicana Field,12
+was,was,WSH,1,120,Nationals,14-529961-2018-05-09,N,9:10 PM,1,529961,R,P,MLB,sdn,sd,SD,2,135,Padres,2018/05/09/wasmlb-sdnmlb-1,F,9,media_dead,Regular Season,3,Final,N,Y,Petco Park,2680
+ari,ari,ARI,3,109,D-backs,14-529948-2018-05-09,N,10:10 PM,1,529948,R,P,MLB,lan,la,LAD,6,119,Dodgers,2018/05/09/arimlb-lanmlb-1,F,9,media_dead,Regular Season,2,Final,N,Y,Dodger Stadium,22
