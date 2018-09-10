@@ -1,12 +1,10 @@
-import pandas as pd
-import numpy as np
 import os
 import urllib.request, json
 from urllib.parse import quote
 from urllib.error import HTTPError
 import csv
 
-def get_daily_data(date):
+def get_json_grid(date):
     '''
     INPUT: Date (example: 2018-05-09).
     OUTPUT: Game data for the input date.
@@ -59,7 +57,7 @@ def get_game_data(grid, date):
 if __name__ == '__main__':
 
     # Acquire the json grid.
-    data = get_daily_data('2018-05-09')
+    data = get_json_grid('2018-05-09')
 
     #Get game data and store in a csv file.
     get_game_data(data,'2018-05-09')
