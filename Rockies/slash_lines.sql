@@ -16,7 +16,7 @@ JOIN player_master
 ON player_master.player_id = pbp_play_by_play.batter_id
 WHERE pbp_play_by_play.description LIKE CONCAT(CONCAT(player_master.name_use,' ', player_master.name_last), '%')
 AND pbp_play_by_play.rec_type = 'play_by_play'
-AND pbp_play_by_play.description NOT LIKE '%walks%'
+AND pbp_play_by_play.event_type <> 'walk'
 AND pbp_play_by_play.event_type <> 'hit_by_pitch'
 AND pbp_play_by_play.event_type<> 'sac_fly'
 AND pbp_play_by_play.event_type <> 'sac_bunt'
