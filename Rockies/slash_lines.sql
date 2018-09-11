@@ -20,7 +20,10 @@ AND pbp_play_by_play.event_type <> 'walk'
 AND pbp_play_by_play.event_type <> 'hit_by_pitch'
 AND pbp_play_by_play.event_type<> 'sac_fly'
 AND pbp_play_by_play.event_type <> 'sac_bunt'
+AND pbp_play_by_play.event_type <> 'sac_bunt_double_play'
+AND pbp_play_by_play.event_type <> 'sac_fly_double_play'
 AND pbp_play_by_play.event_type <> 'batter_interference'
+AND pbp_play_by_play.event_type <> 'catcher_interf'
 GROUP BY pbp_play_by_play.batter_id) AS t1
 INNER JOIN
 (SELECT
