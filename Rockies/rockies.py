@@ -3,6 +3,7 @@ import urllib.request, json
 from urllib.parse import quote
 from urllib.error import HTTPError
 import csv
+import sys
 
 # Author: Evan Hosmer
 
@@ -59,10 +60,7 @@ def get_game_data(grid, date):
 if __name__ == '__main__':
 
     # Acquire the json grid.
-    data = get_json_grid('2018-05-09')
+    data = get_json_grid(sys.argv[1])
 
     #Get game data and store in a csv file.
-    get_game_data(data,'2018-05-09')
-
-
-    /usr/local/mysql/bin/mysql -uroot -p soccer28
+    get_game_data(data, sys.argv[1])
