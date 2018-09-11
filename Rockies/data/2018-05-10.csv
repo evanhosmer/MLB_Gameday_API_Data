@@ -1,0 +1,11 @@
+away_code,away_file_code,away_name_abbrev,away_score,away_team_id,away_team_name,calendar_event_id,double_header_sw,event_time,game_nbr,game_pk,game_type,gameday_sw,group,home_code,home_file_code,home_name_abbrev,home_score,home_team_id,home_team_name,id,ind,inning,media_state,series,series_num,status,tbd_flag,top_inning,venue,venue_id
+sfn,sf,SF,3,137,Giants,14-529968-2018-05-10,N,1:05 PM,1,529968,R,P,MLB,phi,phi,PHI,6,143,Phillies,2018/05/10/sfnmlb-phimlb-1,F,9,media_dead,Regular Season,4,Final,N,Y,Citizens Bank Park,2681
+bos,bos,BOS,5,111,Red Sox,14-529963-2018-05-10,N,7:05 PM,1,529963,R,P,MLB,nya,nyy,NYY,4,147,Yankees,2018/05/10/bosmlb-nyamlb-1,F,9,media_dead,Regular Season,3,Final,N,N,Yankee Stadium,3313
+kca,kc,KC,6,118,Royals,14-529965-2018-05-10,N,7:05 PM,1,529965,R,P,MLB,bal,bal,BAL,11,110,Orioles,2018/05/10/kcamlb-balmlb-1,F,9,media_dead,Regular Season,3,Final,N,Y,Oriole Park at Camden Yards,2
+sea,sea,SEA,9,136,Mariners,14-529969-2018-05-10,N,7:07 PM,1,529969,R,P,MLB,tor,tor,TOR,3,141,Blue Jays,2018/05/10/seamlb-tormlb-1,F,9,media_dead,Regular Season,3,Final,N,N,Rogers Centre,14
+atl,atl,ATL,9,144,Braves,14-529962-2018-05-10,N,7:10 PM,1,529962,R,P,MLB,mia,mia,MIA,2,146,Marlins,2018/05/10/atlmlb-miamlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Marlins Park,4169
+mil,mil,MIL,5,158,Brewers,14-529966-2018-05-10,N,8:40 PM,1,529966,R,P,MLB,col,col,COL,2,115,Rockies,2018/05/10/milmlb-colmlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Coors Field,19
+was,was,WSH,2,120,Nationals,14-529971-2018-05-10,N,9:40 PM,1,529971,R,P,MLB,ari,ari,ARI,1,109,D-backs,2018/05/10/wasmlb-arimlb-1,F,11,media_dead,Regular Season,1,Final,N,N,Chase Field,15
+min,min,MIN,4,142,Twins,14-529967-2018-05-10,N,10:07 PM,1,529967,R,P,MLB,ana,ana,LAA,7,108,Angels,2018/05/10/minmlb-anamlb-1,F,9,media_dead,Regular Season,1,Final,N,Y,Angel Stadium,1
+sln,stl,STL,2,138,Cardinals,14-529970-2018-05-10,N,10:10 PM,1,529970,R,P,MLB,sdn,sd,SD,1,135,Padres,2018/05/10/slnmlb-sdnmlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Petco Park,2680
+cin,cin,CIN,4,113,Reds,14-529964-2018-05-10,N,10:10 PM,1,529964,R,P,MLB,lan,la,LAD,1,119,Dodgers,2018/05/10/cinmlb-lanmlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Dodger Stadium,22
