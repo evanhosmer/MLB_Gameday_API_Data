@@ -14,3 +14,13 @@ To run this utility:
 - Open the `rockies.py` file and edit the input date for the `get_json_grid` and `get_game_data` functions.
 - From the command line, type `python rockies.py`
 - The csv file will be in the data directory and have a name in the format year-month-day.csv reflecting the input date. 
+
+# 2016 MLB Player Slash Lines
+
+The SQL file to calculate the slash lines for every batter in 2016 is also included in this repo. The file is located in the rockies directory and is named `slash_lines.sql`.
+
+The script calculates the following statistics for each batter in 2016:
+- At bats (AB)
+- Batting Average (avg)
+- On Base Percentage (OBP)
+- Slugging Percentage (SLG)
