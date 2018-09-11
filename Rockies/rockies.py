@@ -36,11 +36,15 @@ def get_game_data(grid, date):
 
     # Remove unnecessary information
     for d in games:
-        del d['game_media']
-        del d['newsroom']
+        if 'newsroom' in d:
+            del d['newsroom']
+        if 'game_media' in d:
+            del d['game_media']
 
     # Create a csv file to store the data with name reflecting the date. Data stored in data directory.
-    daily_game_data = open('/Users/evanhosmer/Desktop/Rockies/data/{}-{}-{}.csv'.format(year,month,day), 'w')
+    path = os.path.abspath('rockies.py')
+    path = path.replace('rockies.py', "")
+    daily_game_data = open(path + 'data/{}-{}-{}.csv'.format(year,month,day), 'w')
 
     # create the csv writer object
     csvwriter = csv.writer(daily_game_data)
