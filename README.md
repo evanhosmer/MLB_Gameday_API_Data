@@ -12,6 +12,7 @@ To run this utility:
 - Download the files from this repo.
 - cd into the Rockies directory.
 - Open the `rockies.py` file and edit the input date for the `get_json_grid` and `get_game_data` functions.
+- Change the path to the data folder for the output csv to reflect local machine.
 - From the command line, type `python rockies.py`
 - The csv file will be in the data directory and have a name in the format year-month-day.csv reflecting the input date. 
 
