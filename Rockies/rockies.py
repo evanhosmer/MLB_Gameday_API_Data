@@ -4,6 +4,8 @@ from urllib.parse import quote
 from urllib.error import HTTPError
 import csv
 
+# Author: Evan Hosmer
+
 def get_json_grid(date):
     '''
     INPUT: Date (example: 2018-05-09).
@@ -61,3 +63,6 @@ if __name__ == '__main__':
 
     #Get game data and store in a csv file.
     get_game_data(data,'2018-05-09')
+
+
+    /usr/local/mysql/bin/mysql -uroot -p soccer28

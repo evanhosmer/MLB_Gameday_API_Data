@@ -1,3 +1,4 @@
+-- Author : Evan Hosmer
 -- The following SQL script will compute the slash lines for every batter in 2016
 
 SELECT t1.batter_id, t1.player_name, t1.AB, ((t1.singles + t1.doubles + t1.triples + t1.homers) / t1.AB) as avg,
