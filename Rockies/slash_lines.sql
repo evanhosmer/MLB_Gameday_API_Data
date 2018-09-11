@@ -14,7 +14,7 @@ SUM(CASE WHEN pbp_play_by_play.event_type = 'home_run' THEN 1 ELSE 0 END) as hom
 FROM pbp_play_by_play
 JOIN player_master
 ON player_master.player_id = pbp_play_by_play.batter_id
-WHERE pbp_play_by_play.description LIKE CONCAT(CONCAT(player_master.name_first,' ', player_master.name_last), '%')
+WHERE pbp_play_by_play.description LIKE CONCAT(CONCAT(player_master.name_use,' ', player_master.name_last), '%')
 AND pbp_play_by_play.rec_type = 'play_by_play'
 AND pbp_play_by_play.description NOT LIKE '%walks%'
 AND pbp_play_by_play.event_type <> 'hit_by_pitch'
@@ -31,4 +31,5 @@ INNER JOIN
  FROM pbp_play_by_play
  GROUP BY pbp_play_by_play.batter_id) AS t2
  ON
- t1.batter_id = t2.batter_id;
+ t1.batter_id = t2.batter_id
+ ORDER BY player_name;
